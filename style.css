@@ -1,0 +1,25 @@
+#firstSlide {
+    background-image: url("images/cover/cover-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+
+}
+
+#secondSlide {
+    background-image: url("images/cover/cover-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+
+}
+
+#thirdSlide {
+    background-image: url("images/cover/cover-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+
+}
+
+
