@@ -4,11 +4,13 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 #firstSlide {
     background-image: url("images/cover/cover-1.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: center;
+    background-size: cover;
 
 }
 
@@ -16,7 +18,7 @@ body {
     background-image: url("images/cover/cover-2.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: center;
+    background-size: cover;
 
 }
 
@@ -24,6 +26,6 @@ body {
     background-image: url("images/cover/cover-3.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: center;
+    background-size: cover;
 
 }

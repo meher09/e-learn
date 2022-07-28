@@ -11,76 +11,69 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="style.css">
-    <title>The Learning Page</title>
+    <title>E-Learning</title>
 </head>
 
 <body>
     <!-- Navbar design start -->
-
-    <nav class="navbar navbar-expand-lg  navbar-light bg-light py-3">
-        <div class="container">
-            <a class="navbar-brand h1" href="index.html">Online Learn</a>
-
-            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav  mb-2 mb-lg-0 ps-5">
-                    <li class="nav-item">
-                        <a class="nav-link active text-danger" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Courses</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Tutorials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">References</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Exercises</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand me-5" href="index.html">E-Learning</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-danger" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Tutorials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">References</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Exercises</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-
-        </div>
-    </nav>
-
-
-    <!-- navbar done -->
+        </nav>
+    </header>
 
 
-    <!-- Carousal part start -->
-    <section class="container my-5">
+    <section class="container">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active d-flex flex-column align-item-center" id="firstSlide">
-                    <div class="text-white text-center py-5 bg-dark bg-opacity-75">
+
+
+                <div class="carousel-item active my-5" id="firstSlide">
+
+                    <div class="d-block w-100 text-center text-light bg-dark py-5 bg-opacity-75">
+                        <div class="my-5 py-5"></div>
                         <h1 class="">Start learning with us</h1>
                         <p class="">Are you looking for some awesome courses to start your journey of learning?</p>
                         <div class="btn btn-primary my-2">Get Started</div>
                         <div class="my-5 py-5"></div>
                     </div>
+
                 </div>
 
-
-                <div class="carousel-item d-flex flex-column align-item-center" id="secondSlide">
-                    <div class="text-white text-center py-5 bg-dark bg-opacity-75">
-                        <h1>Grow your skills day by day</h1>
-                        <p class="">Make your own choice from hundreds of our courses.</p>
-                        <div class="btn btn-primary my-2">Get Started</div>
+                <div class="carousel-item my-5" id="secondSlide">
+                    <div class="d-block w-100 text-center text-light bg-dark py-5 bg-opacity-75">
                         <div class="my-5 py-5"></div>
-                    </div>
-                </div>
 
-
-
-                <div class="carousel-item d-flex flex-column align-item-center" id="thirdSlide">
-                    <div class="text-white text-center py-5 bg-dark bg-opacity-75">
                         <h1>Start learning with us</h1>
                         <p>Are you looking for some awesome courses to start your journey of learning?</p>
                         <div class="btn btn-primary my-2">Get Started</div>
@@ -90,21 +83,36 @@
                 </div>
 
 
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <div class="carousel-item my-5" id="thirdSlide">
+                    <div class="d-block w-100 text-center text-light bg-dark py-5 bg-opacity-75">
+                        <div class="my-5 py-5"></div>
+
+                        <h1>Grow your skills day by day</h1>
+                        <p class="">Make your own choice from hundreds of our courses.</p>
+                        <div class="btn btn-primary my-2">Get Started</div>
+                        <div class="my-5 py-5"></div>
+                    </div>
+                </div>
+
+
             </div>
+
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-
-
     </section>
+
+
 
 
     <!-- Carousal activated -->
@@ -117,29 +125,13 @@
                 looking at its layout.</p>
         </div>
         <div class="card-container">
-            <div class="row row-cols-1 row-cols-md-2 g-2">
+            <div class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 g-2">
+
                 <div class="col">
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="images/course/course-1.png" class="img-fluid rounded-start w-100" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -153,30 +145,11 @@
                     </div>
                 </div>
 
-            </div>
-            <div class="row row-cols-1 row-cols-md-2 g-2">
                 <div class="col">
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
+                                <img src="images/course/course-2.png" class="img-fluid rounded-start w-100" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -190,13 +163,54 @@
                     </div>
                 </div>
 
-            </div>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
+
+
                 <div class="col">
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
+                                <img src="images/course/course-3.png" class="img-fluid rounded-start w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col d-none d-lg-flex">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-4.png" class="img-fluid rounded-start w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="col d-none d-lg-flex">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-5.png" class="img-fluid rounded-start w-100" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -212,11 +226,11 @@
 
                 <!-- card starts -->
 
-                <div class="col">
+                <div class="col d-none d-lg-flex">
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
+                                <img src="images/course/course-6.png" class="img-fluid rounded-start w-100" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -275,8 +289,30 @@
 
             </div>
             <div class="col">
-                <a class="btn btn-warning btn-lg">Register Now</a>
+                <a class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</a>
             </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal ends -->
         </div>
     </div>
     <!-- Register Section Done -->
@@ -303,6 +339,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col">
                     <div class="card h-100">
                         <img src="images/student/student-2.png" class="card-img-top" alt="...">
@@ -312,6 +349,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col">
                     <div class="card h-100">
                         <img src="images/student/student-3.png" class="card-img-top" alt="...">
@@ -322,6 +360,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col">
                     <div class="card h-100">
                         <img src="images/student/student-4.png" class="card-img-top" alt="...">
@@ -355,7 +394,7 @@
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Accordion Item #1
+                        Difference between Bootstrap and Tailwind CSS.
                     </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
@@ -374,18 +413,18 @@
                 <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Accordion Item #2
+                        Difference between flexbox and css grid
                     </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
+                        <strong>Grid:</strong> CSS Grid Layout, is a two-dimensional grid-based layout system with rows
+                        and columns, making it easier to design web pages without having to use floats and positioning.
+                        Like tables, grid layout allow us to align elements into columns and rows. <br>
+                        <strong>Flexbox:</strong> The CSS Flexbox offers a one-dimensional layout. It is helpful in
+                        allocating and aligning the space among items in a container (made of grids). It works with all
+                        kinds of display devices and screen sizes.
                     </div>
                 </div>
             </div>
@@ -435,7 +474,7 @@
     <!-- partner section -->
     <div class="container my-5 py-5 text-center d-none d-lg-flex">
         <div class="row ">
-            <h2 class="text-uppercase mb-3">Our business Partners</h2>
+            <h2 class="text-uppercase mb-3">Meet Our business Partners</h2>
             <img class="col me-2 p-3" src="images/company/company-1.png" alt="">
             <img class="col me-2 p-3" src="images/company/company-2.png" alt="">
             <img class="col me-2 p-3" src="images/company/company-3.png" alt="">
@@ -450,7 +489,7 @@
 
     <!-- footer -->
     <footer class="container-fluid bg-dark text-light text-center py-5 mt-5">
-        <h1>Pro Edu</h1>
+        <h1>The learning Page</h1>
         <p>Office 41, Chawkbazar Road, Noakhali <br> Bangladesh </p>
 
         <nav style="--bs-breadcrumb-divider: '|';" aria-label="breadcrumb">
