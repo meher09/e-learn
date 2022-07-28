@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Quicksand&family=Roboto+Condensed&family=Wendy+One&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 #firstSlide {
     background-image: url("images/cover/cover-1.png");
     background-position: center;
@@ -21,5 +27,3 @@
     background-size: center;
 
 }
-
-
