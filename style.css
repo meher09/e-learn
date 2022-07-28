@@ -4,28 +4,23 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
-
-#firstSlide {
-    background-image: url("images/cover/cover-1.png");
+.bg-details {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#firstSlide {
+    background-image: url("images/cover/cover-1.png");
 
 }
 
 #secondSlide {
     background-image: url("images/cover/cover-2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 
 }
 
 #thirdSlide {
     background-image: url("images/cover/cover-3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 
 }
